@@ -8,13 +8,13 @@
 {% include head.html %}
 
 <body>
-{% include extensions/click-to-top.html %}
 
   <div class="wrapper">
     {% include sidebar.html %}
 
     <div class="main-wrapper">
         {{ content }}
+		{% include extensions/click-to-top.html %}
     </div>
   </div>
 
