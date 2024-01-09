@@ -5,17 +5,12 @@ title: Ricardo Hernández Osorio
 description: Jekyll theme for my projects
 taglong: Jekyll theme
 tagshort: Jekyll
-url: https://cvless.netlify.app
-baseurl: ""
-permalink: pretty
-repo: https://github.com/username/username.github.io
 
 # author settings
 
 author:
   name: Ricardo Hernández Osorio
   email: ricardo.hdz.o@outlook.com
-photo: /assets/jpg/photo.jpg
 
 # social media links
 
@@ -43,21 +38,6 @@ plugins:
 whitelist:
   - jekyll-sitemap
 
-sass:
-  sass_dir: _sass
-  style: compressed
-  sourcemap: never
-
-feed:
-  path: atom.xml
-
 autopages:
   enabled: false
-
-pagination:
-  enabled: true
-  per_page: 1
-  sort_reverse: true
-  permalink: /:num/
-  title: ":title &middot; Page :num"
 
