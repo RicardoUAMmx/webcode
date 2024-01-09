@@ -1,8 +1,63 @@
 
+# site settings
 
-remote_theme: pages-themes/hacker@v0.2.0
+title: Ricardo Hernández Osorio
+description: Jekyll theme for my projects
+taglong: Jekyll theme
+tagshort: Jekyll
+url: https://cvless.netlify.app
+baseurl: ""
+permalink: pretty
+repo: https://github.com/username/username.github.io
+
+# author settings
+
+author:
+  name: Ricardo Hernández Osorio
+  email: ricardo.hdz.o@outlook.com
+photo: /assets/jpg/photo.jpg
+
+# social media links
+
+social:
+  facebook: username
+  github: username
+  instagram: username
+  linkedin: username
+  stackoverflow: 0000000/username
+  twitter: username
+
+# build settings
+
+exclude:
+  - LICENSE
+  - README.md
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-title: [Ricardo Hernández Osorio]
-description: [About past and present code projects]
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
+
