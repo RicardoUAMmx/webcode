@@ -17,6 +17,5 @@ $sidebar-order: 2;
 $on-palm:   600px !default;
 $on-laptop: 800px !default;
 
-@import "cv-theme";
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
