@@ -14,5 +14,8 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
+$on-palm:   600px !default;
+$on-laptop: 800px !default;
+
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
