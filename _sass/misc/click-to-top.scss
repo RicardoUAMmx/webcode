@@ -1,6 +1,6 @@
 
 .click-to-top {
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: center;
 	position: fixed;
@@ -16,7 +16,7 @@
 	font-size: 24px;
 	user-select: none;
 	transition: 0.3s;
-	z-index: 10;
+	z-index: 99;
 
 	@include media-query($on-laptop){
 		width: 48px;
@@ -30,5 +30,9 @@
 .click-to-top.show {
 	opacity: 1;
 	transform: translateY(0);
+}
+
+.click-to-top.show:hover {
+	background-color: #555;
 }
 
