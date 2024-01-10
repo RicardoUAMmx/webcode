@@ -41,7 +41,7 @@ function smoothScrollTo(y, time){
 	var length = (y - scrollPos.y);
 
 	function easeInOut(k){
-		return .5 * (Math.sin((k - 5) * Math.PI) + 1);
+		return 0.5 * (Math.sin((k - 0.5) * Math.PI) + 1);
 	}
 
 	for(var i = _scrollTimer.length -1; i >= 0; i--){
