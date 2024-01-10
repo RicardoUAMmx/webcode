@@ -1,0 +1,57 @@
+/**
+ * Animation for transparent header
+ */
+html {
+  &[data-header-transparent] {
+    header.site-header {
+      position: fixed;
+    }
+  }
+
+  &[data-scroll-status='top'] {
+    header.site-header-transparent {
+      height: 0;
+      margin-top: 12px;
+      background-color: transparent;
+      transition: 0.1s height,background-color,box-shadow;
+
+      &.site-header {
+        .site-brand-inner, .page-link {
+          color: #fff;
+          transition: 0.1s color;
+        }
+
+        @include media-query($on-laptop) {
+          .page-link {
+            color: $header-text-color;
+          }
+
+          .menu-icon {
+            > svg {
+              fill: $white-color;
+            }
+          }
+        }
+      }
+    }
+
+    footer.site-footer {
+      color: unset;
+      background-color: transparent;
+
+      .site-footer-inner {
+        border-top: solid 1px #eee;
+      }
+    }
+  }
+
+  &[data-scroll-status='down'] {
+    header.site-header {
+      top: -$header-height;
+    }
+
+    .framework .sidebar {
+      top: 20px;
+    }
+  }
+}
