@@ -8,7 +8,9 @@
 {% include head.html %}
 
 <body>
+{% include extensions/click-to-top.html %}
 
+  <main>
   <div class="wrapper">
     {% include sidebar.html %}
 
@@ -16,6 +18,7 @@
         {{ content }}
     </div>
   </div>
+  </main>
 
   {% include footer.html %}
 
