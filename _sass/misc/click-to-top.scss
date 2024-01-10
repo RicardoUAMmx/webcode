@@ -1,7 +1,9 @@
 
 .click-to-top {
 	display: flex;
-	position: fixed;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
 	width: 64px;
 	height: 64px;
 	border-radius: 32px;
@@ -9,14 +11,25 @@
 	bottom: 48px;
 	cursor: pointer;
 	opacity: 0;
+	transform: translateY(10px);
 	box-shadow: 0 2px 15px rgba(0,0,0,0.15);
 	font-size: 24px;
+	user-select: none;
 	transition: 0.3s;
-	z-index: 10;
+	z-index: 99;
+
+	@include media-query($on-laptop){
+		width: 48px;
+		height: 48px;
+		border-radius: 24px;
+		right: 35px;
+		font-size: 20px;
+	}
 }
 
 .click-to-top.show {
 	opacity: 1;
+	transform: translateY(0);
 }
 
 .click-to-top.show:hover {
