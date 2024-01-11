@@ -1,5 +1,7 @@
 
 .click-to-top {
+	grid-column: span 3;
+	order: $sidebar-order;
 	position: fixed;
 	width: 64px;
 	height: 64px;
