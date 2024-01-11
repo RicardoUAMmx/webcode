@@ -8,17 +8,17 @@
 {% include head.html %}
 
 <body>
-{% include extensions/fixed-head.html %}
 
-  <main>
   <div class="wrapper">
+  {% include extensions/fixed-head.html %}
+  <main>
     {% include sidebar.html %}
 
     <div class="main-wrapper">
         {{ content }}
     </div>
-  </div>
   </main>
+  </div>
 
   {% include extensions/click-to-top.html %}
   {% include footer.html %}
