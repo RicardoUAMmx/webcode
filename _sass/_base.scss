@@ -36,6 +36,10 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+	'header'
+	'main';
   background: $theme-color;
   max-width: 1000px;
   margin: 0 auto;
