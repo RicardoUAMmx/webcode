@@ -36,10 +36,6 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-	'header'
-	'main';
   background: $theme-color;
   max-width: 1000px;
   margin: 0 auto;
@@ -50,7 +46,6 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: $sidebar-order;
-  grid-area: main;
   background: $theme-color;
   color: #fff;
   a {
@@ -167,7 +162,6 @@ p {
 .main-wrapper {
   grid-column: span 7;
   order: $resume-order;
-  grid-area: main;
   background: #fff;
   padding: 60px;
   .section-title {
