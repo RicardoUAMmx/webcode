@@ -5,6 +5,11 @@
 	grid-template-columns: repeat(10, 1fr);
 	grid-column: span 10;
 	background: $theme-color;
+	max-width: 1000px;
+	padding: 60px;
 	top: 0;
 	z-index: 1;
+	a {
+		color: #fff;
+	}
 }
