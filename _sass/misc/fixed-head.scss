@@ -4,6 +4,7 @@
 	position: relative;
 	grid-template-columns: repeat(10, 1fr);
 	grid-column: span 10;
+	background: $theme-color;
 	top: 0;
 	z-index: 1;
 }
