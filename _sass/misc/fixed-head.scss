@@ -3,7 +3,7 @@
 	display: grid;
 	position: sticky;
 	grid-template-columns: repeat(10, 1fr);
-	grid-column: 1/-1;
+	grid-row: 1/-1;
 	background: $theme-color;
 	max-width: 1000px;
 	padding: 30px;
