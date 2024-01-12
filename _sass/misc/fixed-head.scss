@@ -1,7 +1,7 @@
 
 .fixed-head {
 	display: grid;
-	position: relative;
+	position: sticky;
 	grid-template-columns: repeat(10, 1fr);
 	grid-column: span 10;
 	background: $theme-color;
