@@ -80,7 +80,9 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	  .hash {
-		color: rgba(150,80,20,0.2);
+		padding: 2px;
+		background: #fff;
+		color: $theme-color;
 	  }
   }
   .hashtags>* {
