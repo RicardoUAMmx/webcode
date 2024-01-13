@@ -19,11 +19,10 @@
 
 	{% if sidebar.hashtags %}
 	<div class="hashtags">
-	  {% assing _hashses = sidebar.hastags | split: " " %}
-		{% for hash in _hashes %}
+	  {% assign _hashses = sidebar.hastags | split: " " %}
+	  {% for hash in _hashes %}
 	  <div class="hash">{{ hash }}</div>
-		{% endfor %}
-	  {% endwith %}
+	  {% endfor %}
 	</div>
     {% endif %}
 
