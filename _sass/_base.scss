@@ -79,8 +79,11 @@ p {
   .hashtags {
 	display: flex;
 	flex-wrap: wrap;
+	gap: 10px;
 	  .hash {
 		padding: 2px;
+		border-radius: 10px;
+		border: 2px;
 		background: #fff;
 		color: $theme-color;
 	  }
