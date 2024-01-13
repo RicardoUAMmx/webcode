@@ -20,8 +20,7 @@ sidebar:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required._
-    hashtags: |
-      Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS
+    hashtags: Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS
 
     # Sidebar links
     email: hello@webjeda.com
