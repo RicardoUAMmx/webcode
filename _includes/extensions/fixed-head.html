@@ -1,5 +1,13 @@
+{% assign header = site.data.data.header %}
 
 <div class="fixed-head">
-  <h1 class="title-upper">Hola Mundo</h1>
-  <h3 class="title-sub">Full Stack Developer</h3>
+
+  {% if header.title %}
+  <h1 class="title-upper">{{ header.title }}</h1>
+  {% endif %}
+
+  {% if header.subtitle %}
+  <h3 class="title-sub">{{ header.subtitle }}</h3>
+  {% endif %}
+
 </div>
