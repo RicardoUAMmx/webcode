@@ -19,7 +19,11 @@
 
 	{% if sidebar.hashtags %}
 	<div class="hashtags">
-	  <p>{{ sidebar.hashtags | markdownify }}</p>
+	  {% with sidebar.hastags | split: " " as hashses %}
+		{% for hash in hashes %}
+	  <div class="hash">{{ hash }}</div>
+		{% endfor %}
+	  {% endwith %}
 	</div>
     {% endif %}
 

@@ -77,8 +77,14 @@ p {
     margin-bottom: 10px;
   }
   .hashtags {
-	color: $text-color-secondary;
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	  .hash {
+		color: rgba(150,80,20,0.2);
+	  }
+  }
+  .hashtags>* {
+	flex: 1 1 auto;
   }
   .profile {
     margin-bottom: 15px;
