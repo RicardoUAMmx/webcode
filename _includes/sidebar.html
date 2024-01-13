@@ -7,10 +7,14 @@
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
+	<p class="tagline">About me</p>
+
 	{% if sidebar.about %}
-	<i class="fas fa-quote-left"></i>
-	<p>{{ sidebar.about | markdownify }}</p>
-	<i class="fas fa-quote-right"></i>
+	<div class="about">
+	  <i class="fas fa-quote-left"></i>
+	  <p>{{ sidebar.about | markdownify }}</p>
+	  <i class="fas fa-quote-right"></i>
+	</div>
     {% endif %}
 
   </div><!--//profile-container-->
