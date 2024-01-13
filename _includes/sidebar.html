@@ -17,6 +17,12 @@
 	</div>
     {% endif %}
 
+	{% if sidebar.hashtags %}
+	<div class="hashtags">
+	  <p>{{ sidebar.hashtags | markdownify }}</p>
+	</div>
+    {% endif %}
+
   </div><!--//profile-container-->
 
   {% include contact.html %}
