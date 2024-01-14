@@ -4,6 +4,7 @@
 	position: sticky;
 	grid-template-columns: repeat(10, 1fr);
 	background-color: $theme-color;
+	box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.5);
 	color: #fff;
 	max-width: 1000px;
 	bottom: 0;
@@ -12,7 +13,6 @@
 	opacity: 0;
 	transition: 0.3s;
 	transform: translateY(10px);
-	box-shadow: 0 2px 15px rgba(0,0,0,0.15);
 	z-index: 1;
 	.click-box {
 		grid-column: span 10;
