@@ -4,15 +4,11 @@
 	position: sticky;
 	grid-template-columns: repeat(10, 1fr);
 	bottom: 0;
-	width: 64px;;
-	height: 64px;
 	margin: 0 auto;
-	cursor: pointer;
 	opacity: 0;
 	transform: translateY(10px);
 	box-shadow: 0 2px 15px rgba(0,0,0,0.15);
-	user-select: none;
-	transition: 0.3s;
+	z-index: 1;
 	.click-box {
 		grid-column: span 8/9;
 		text-align: center;
