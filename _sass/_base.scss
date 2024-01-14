@@ -83,10 +83,10 @@ p {
 	  .hash {
 		padding: 4px;
 		border-radius: 10px;
-		border: 2px;
+		border: 2px solid $text-grey;
 		background: $theme-color;
 		color: #fff;
-		border-color: $text-grey;
+		box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.5);
 	  }
   }
   .hashtags>* {

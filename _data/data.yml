@@ -23,18 +23,18 @@ sidebar:
     hashtags: Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: ricardo.hdz.o@outlook.com
+    phone: 52 722 8442069
+    timezone:
     citizenship:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    xing:
+    github: RicardoUAMmx
+    telegram: DikkiDinky # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@RicardoHzO'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -43,36 +43,43 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Spanish
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: B2-C1 (CEFR)
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Fitness World. Gymnastics.
           link:
 
-        - item: Snowboarding
+        - item: Chess.
           link:
 
-        - item: Cooking
+        - item: Lego collector.
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Soy un recien egresado de la Licenciatura en Ingeniería en Computación y
+      Telecomunicaciones, sin embargo, mi vida laboral ha iniciado desde mucho
+      antes de comenzar estudios profesionales; la mayoría de ellos en ventas y
+      servicios. He tenido la oportunidad de descubrir mis habilidades sociales
+      y puesto a prueba mi persuasión como vendedor en empresas como
+      _IUSACELL_, _BANAMEX_ (actualmente _CITI_), y _HSBC_, donde mi primer
+      acercamiento fue como ejecutivo de cuenta. Por otro lado, en la industria
+      de servicios he colaborado con _VOLARIS_ en su callcenter, con
+      actividades que van desde la reservación de vuelos, hasta la atención de
+      vuelos con situaciones extraordinarias. También, brindando servicios en
+      su callcenter de _BANORTE_, mi aprendizaje no se detuvo, en especial al
+      poner en práctica todas mis actividades pasadas. De lo anterior, mis
+      destrezas colectivas, de superación, de persuación, de resiliencia y de
+      coraje pueden ser demostradas al no solo no haber dejado detrás la vida
+      academica, sino cumplir con una vida profesional actualmente, de la que
+      me siento entusiasmado por los retos de cara al futuro.
 education:
     title: Education
     info:
