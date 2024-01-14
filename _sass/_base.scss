@@ -86,9 +86,9 @@ p {
 		border: 2px;
 		background: $theme-color;
 		color: #fff;
-		-webkit-box-shadow: 0 10px 6px -6px $text-color-secondary;
-		-moz-box-shadow: 0 10px 6px -6px $text-color-secondary;
-		box-shadow: 0 10px 6px -6px $text-color-secondary;
+		-webkit-box-shadow: 0 10px 4px -6px $text-color-secondary;
+		-moz-box-shadow: 0 10px 4px -6px $text-color-secondary;
+		box-shadow: 0 10px 4px -6px $text-color-secondary;
 	  }
   }
   .hashtags>* {
@@ -104,7 +104,7 @@ p {
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 20px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 4px $text-color-secondary;
   }
   .contact-list {
     .fas,
