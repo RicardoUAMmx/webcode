@@ -23,12 +23,16 @@
 }
 
 .click-to-top.show {
-	background-color: #fff;
+	background-color: $theme-color;
 	opacity: 1;
+	transition: 0.3s;
 	transform: translateY(0);
 }
 
 .click-to-top.show:hover {
-	background-color: $theme-color;
+	background-color: #fff;
+	i {
+		color: $theme-color;
+	}
 }
 
