@@ -22,19 +22,11 @@
 			color: #fff;
 		}
 	}
-}
-
-.click-to-top.show {
-	background-color: $theme-color;
-	opacity: 1;
-	transition: 0.3s;
-	transform: translateY(0);
-}
-
-.click-to-top.show:hover {
-	background-color: #fff;
-	i {
-		color: $theme-color;
+	.show {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }
+
+
 
