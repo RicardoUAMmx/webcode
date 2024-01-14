@@ -3,6 +3,8 @@
 	display: grid;
 	position: sticky;
 	grid-template-columns: repeat(10, 1fr);
+	background-color: $theme-color;
+	color: #fff;
 	max-width: 1000px;
 	bottom: 0;
 	margin: 0 auto;
