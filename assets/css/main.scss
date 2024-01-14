@@ -17,5 +17,5 @@ $sidebar-order: 2;
 $on-palm:   600px !default;
 $on-laptop: 800px !default;
 
-@import "skins/{{ site.theme_skin | default: 'dracula' }}"; // skin
+@import "skins/{{ site.theme_skin | default: 'dracula-dk' }}"; // skin
 @import "default"; // main partials
