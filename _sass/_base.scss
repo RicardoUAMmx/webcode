@@ -86,9 +86,9 @@ p {
 		border: 2px;
 		background: $theme-color;
 		color: #fff;
-		-webkit-box-shadow: 0 10px 6px -6px #fff;
-		-moz-box-shadow: 0 10px 6px -6px #fff;
-		box-shadow: 0 10px 6px -6px #fff;
+		-webkit-box-shadow: 0 10px 6px -6px $text-color-secondary;
+		-moz-box-shadow: 0 10px 6px -6px $text-color-secondary;
+		box-shadow: 0 10px 6px -6px $text-color-secondary;
 	  }
   }
   .hashtags>* {
