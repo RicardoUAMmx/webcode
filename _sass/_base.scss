@@ -86,9 +86,9 @@ p {
 		border: 2px;
 		background: $theme-color;
 		color: #fff;
-		-webkit-box-shadow: 0 10px 4px -6px $text-color-secondary;
-		-moz-box-shadow: 0 10px 4px -6px $text-color-secondary;
-		box-shadow: 0 10px 4px -6px $text-color-secondary;
+		-webkit-box-shadow: 0 10px 4px -4px $text-color-secondary;
+		-moz-box-shadow: 0 10px 4px -4px $text-color-secondary;
+		box-shadow: 0 10px 4px -4px $text-color-secondary;
 	  }
   }
   .hashtags>* {
@@ -100,11 +100,11 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 150px;
+    max-width: 250px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 5px solid #fff;
     border-radius: 20px;
-    box-shadow: 0 10px 4px $text-color-secondary;
+    box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.5);
   }
   .contact-list {
     .fas,
