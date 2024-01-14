@@ -12,7 +12,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    avatar: imgMe.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: imgMeNoBack.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     about: |
       _Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().

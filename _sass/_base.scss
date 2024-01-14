@@ -81,12 +81,11 @@ p {
 	flex-wrap: wrap;
 	gap: 10px;
 	  .hash {
-		padding: 2px;
+		padding: 4px;
 		border-radius: 10px;
 		border: 2px;
 		background: $theme-color;
 		color: #fff;
-		border-radius: 1px;
 		border-color: $text-grey;
 	  }
   }
