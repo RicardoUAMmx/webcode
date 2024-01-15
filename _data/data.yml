@@ -14,12 +14,26 @@ sidebar:
     # Profile information
     avatar: imgMeNoBack.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     about: |
-      _Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required._
+      _I am a recent graduate of Computer and Telecommunications Engineering;
+      however, my work life started much earlier than my professional studies,
+      most of them in sales and services. I have had the opportunity to
+      discover my social skills and test my persuasiveness as a salesman in
+      companies such as IUSACELL (a telecommunications company in Mexico) and
+      BANAMEX (currently CITI Bank). On the other hand, in the services
+      industry, I have collaborated with VOLARIS (one of the most important
+      airlines in Mexico) in their call center, with activities like flight
+      reservations and especially hard flight attention that meant an
+      enhancement to my resume. Also, in a BANORTE call center bank, my
+      learning did not stop, especially because I could practice all my past
+      skills. From the above, my collective skills of self-improvement,
+      perseverance, resilience, and courage, would be proven by studying
+      instead of leaving them behind, taking advantage of my experiences from
+      before. Finally, and from a very special place, I would highlight my HSBC
+      experience, where I could challenge myself in an important position as a
+      KYC reviewer, where the details, concentration, intuition, knowledge of
+      the retail market bank, technical skills and my passion for abstract
+      reasoning were crucial, overall, my most important work experience.
+
     hashtags: Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS
 
     # Sidebar links
