@@ -34,15 +34,17 @@ sidebar:
       the retail market bank, technical skills and my passion for abstract
       reasoning were crucial, overall, my most important work experience_
 
-    hashtags: Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS
+    hashtags: |
+      Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS MySQL Linux
+      'Embedded Systems'
 
     # Sidebar links
     email: ricardo.hdz.o@outlook.com
     phone: 52 722 8442069
     timezone:
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
+    website: # blog.webjeda.com #do not add http://
+    linkedin: # alandoe
     xing:
     github: RicardoUAMmx
     telegram: DikkiDinky # add your nickname without '@' sign
@@ -52,7 +54,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -66,7 +68,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Fitness World. Gymnastics.
+        - item: Fitness, calisthenics and gymnastics.
           link:
 
         - item: Chess.
@@ -93,9 +95,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc in Computer and Telecommunication
+        university: Universidad Autónoma Metropolitana
+        time: 2017 - 2023
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -104,9 +106,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Mathematics (Unfinished)
+        university: Universidad Autónoma del Estado de México
+        time: 2008 - 2011
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
