@@ -4,11 +4,11 @@
 
 header:
     title: Ricardo Hernández Osorio
-    subtitle: Computation and Telecommunication Engineer
+    subtitle: Computer and Telecommunication Engineer
 
 sidebar:
     position: left # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: # True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -36,7 +36,7 @@ sidebar:
 
     hashtags: |
       Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS MySQL Linux
-      'Embedded Systems'
+      Embedded-Systems
 
     # Sidebar links
     email: ricardo.hdz.o@outlook.com
@@ -95,7 +95,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: BSc in Computer and Telecommunication
+      - degree: BSc in Computer and Telecommunication Engineering
         university: Universidad Autónoma Metropolitana
         time: 2017 - 2023
         details: |
