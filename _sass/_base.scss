@@ -192,10 +192,15 @@ p {
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   .section {
     margin-bottom: 60px;
+	  .container-section-upper {
+		margin-top: 0;
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+	  }
   }
 
   .experiences-section,
