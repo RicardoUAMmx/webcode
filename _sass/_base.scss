@@ -187,15 +187,13 @@ p {
   padding: 60px;
   .section-line {
 	display: flex;
-	flex-wrap: wrap;
-	flex: 1 1 auto;
-	  .section-boxing {
-		padding: 4px;
-		border-radius: 10px;
+	flex-wrap: nowrap;
+	  .section-box-a {
+		flex: 1 1 auto;
+	  }
+	  .section-box-b {
+		flex: 0 1 auto;
 		border: 2px solid $text-grey;
-		background: $theme-color;
-		color: #fff;
-		box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.5);
 	  }
   }
   .section-title {
