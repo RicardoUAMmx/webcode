@@ -12,7 +12,7 @@
 	  {{ career-profile.title }}
 	</h2>
 	</div>
-	<div class="section-box-b">
+	<div id="section-box-b" class="section-box-b">
 	<h2 class="section-title">
 	  <span class="fa-stack fa-xs">
 		<i class="fas fa-chevron-down fa-stack-2x"></i>
@@ -20,8 +20,18 @@
 	</div>
 	</h2>
   </div>
+  <script>
+	$('section-box-b').click(function(e){
+	  $('sumary-career').css('visibility', 'visible');
+	  if( $('sumary-career').is(":visible") ){
+		$('sumary-career').css('display', 'none');
+	  } else {
+		$('sumary-career').css('display', 'block');
+	  }
+	});
+  </script>
 
-  <div class="summary">
+  <div id="sumary-career" class="summary">
     {{ career-profile.summary | markdownify }}
   </div><!--//summary-->
     
