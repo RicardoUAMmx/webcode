@@ -22,12 +22,13 @@
   </div>
   <script>
 	(function(){
+	  const sumaryCareer = document.getElementById('sumary-career');
 	  const sectionBoxB = document.getElementById('section-box-b');
 	  sectionBoxB.addEventListener('click', () => {
-		if (sectionBoxB.style.display === "none"){
-		  sectionBoxB.style.display = "block";
+		if (sumaryCareer.style.display === "none"){
+		  sumaryCareer.style.display = "block";
 		} else {
-		  sectionBoxB.style.display = "none";
+		  sumaryCareer.style.display = "none";
 		}
 	  });
 	})();
