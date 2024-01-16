@@ -20,19 +20,6 @@
 	</div>
 	</h2>
   </div>
-  <script>
-	(function(){
-	  const sumaryCareer = document.getElementById('sumary-career');
-	  const sectionBoxB = document.getElementById('section-box-b');
-	  sectionBoxB.addEventListener('click', () => {
-		if (sumaryCareer.style.display === "none"){
-		  sumaryCareer.style.display = "block";
-		} else {
-		  sumaryCareer.style.display = "none";
-		}
-	  });
-	})();
-  </script>
 
   <div id="sumary-career" class="summary">
     {{ career-profile.summary | markdownify }}

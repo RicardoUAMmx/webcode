@@ -1,3 +1,17 @@
+document.addEventListener('DOMContentLoaded', function () {
+  (function(){
+    const sumaryCareer = document.getElementById('sumary-career');
+    const sectionBoxB = document.getElementById('section-box-b');
+    sectionBoxB.addEventListener('click', () => {
+  	if (sumaryCareer.style.display === "none"){
+  	  sumaryCareer.style.display = "block";
+  	} else {
+  	  sumaryCareer.style.display = "none";
+  	}
+    });
+  })();
+});
+
 jQuery(document).ready(function($) {
 
     $('.level-bar-inner').css('width', '0');
