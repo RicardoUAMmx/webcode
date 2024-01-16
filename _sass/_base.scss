@@ -190,18 +190,12 @@ p {
     font-size: 20px;
     font-weight: 500;
     color: darken($theme-color, 15%);
+    position: relative;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   .section {
     margin-bottom: 60px;
-	  .container-section-upper {
-		display: flex;
-		margin-top: 0;
-		margin-bottom: 20px;
-		flex-wrap: wrap;
-		flex: 1 1 auto;
-	  }
   }
 
   .experiences-section,
