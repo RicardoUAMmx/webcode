@@ -197,6 +197,7 @@ p {
   .section {
     margin-bottom: 60px;
 	  .container-section-upper {
+		display: flex;
 		margin-top: 0;
 		margin-bottom: 20px;
 		flex-wrap: wrap;
