@@ -188,8 +188,7 @@ p {
   .section-line {
 	display: flex;
 	flex-wrap: nowrap;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin: 10px;
     border-radius: 20px;
     border: 2px solid $text-grey;
 	  .section-box-a {
