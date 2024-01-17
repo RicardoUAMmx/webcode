@@ -184,11 +184,11 @@ p {
   grid-column: span 7;
   order: $resume-order;
   background: #fff;
-  padding: 60px;
+  padding: 60px 0;
   .section-line {
 	display: flex;
 	flex-wrap: nowrap;
-	margin: 10px;
+	margin-bottom: 10px;
     border-radius: 20px;
     border: 2px solid $text-grey;
 	  .section-box-a {
@@ -214,7 +214,7 @@ p {
     margin-bottom: 0;
   }
   .section {
-    margin-bottom: 60px;
+    padding: 0 60px 60px;
   }
 
   .experiences-section,
