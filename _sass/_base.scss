@@ -194,6 +194,12 @@ p {
 	  .section-box-b {
 		flex: 0 1 auto;
 	  }
+	  #arrow-down {
+		  opacity: 0;
+	  }
+	  #arrow-up {
+		  opacity: 1;
+	  }
   }
   .section-title {
     text-transform: uppercase;
