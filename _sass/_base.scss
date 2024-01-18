@@ -185,6 +185,11 @@ p {
   order: $resume-order;
   background: #fff;
   padding: 60px 0px 60px 0px;
+  .summary {
+	padding: 5px;
+	border-radius: 20px;
+	border: 2px solid $text-grey;
+  }
   .section-line {
 	display: flex;
 	flex-wrap: nowrap;
