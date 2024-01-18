@@ -221,7 +221,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: darken($theme-color, 15%);
+    color: $theme-color;
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
