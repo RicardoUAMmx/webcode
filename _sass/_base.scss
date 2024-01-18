@@ -200,7 +200,6 @@ p {
 	margin-bottom: 10px;
 	padding: 5px;
     border-radius: 20px;
-    border: 2px solid $text-grey;
     box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.5);
 	background: $theme-color;
 	background: rgba(0, 0, 0, 0.2);
@@ -222,6 +221,7 @@ p {
     font-size: 20px;
     font-weight: 500;
     color: $theme-color;
+	text-color: $text-grey;
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
