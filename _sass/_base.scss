@@ -276,12 +276,14 @@ p {
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+  .publications-section,
+  .oss-section,
   .projects-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
     .item {
-      margin-bottom: 15px;
+      margin: 5px;
     }
   }
 
