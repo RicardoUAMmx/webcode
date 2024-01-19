@@ -46,17 +46,16 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: $sidebar-order;
-  background: $text-color;
+  background: darken($text-color-secondary, 80%);
   color: $smoky-white;
   a {
     color: #fff;
   }
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
-    background: rgba(0, 0, 0, 0.2);
+    background: $text-color;
     text-align: center;
-    color: #fff;
+    color: $smoky-white;
   }
   .name {
     font-size: 32px;
@@ -202,6 +201,7 @@ p {
     border-radius: 20px;
     box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.5);
 	background: $text-color-secondary;
+	background: rgba(0, 0, 0, 0.5);
 	  .section-box-a {
 		flex: 1 1 auto;
 	  }
