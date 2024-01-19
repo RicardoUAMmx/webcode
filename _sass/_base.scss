@@ -182,7 +182,7 @@ p {
 .main-wrapper {
   grid-column: span 7;
   order: $resume-order;
-  background: $smoky-white;
+  background: darken($smoky-white, 15%);
   padding: 60px 0px 60px 0px;
   .summary {
 	padding: 5px;
