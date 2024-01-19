@@ -233,6 +233,18 @@ p {
 	  #arrow-up-projects {
 		  opacity: 1;
 	  }
+	  #arrow-down-oss {
+		  opacity: 0;
+	  }
+	  #arrow-up-oss {
+		  opacity: 1;
+	  }
+	  #arrow-down-publications {
+		  opacity: 0;
+	  }
+	  #arrow-up-publications {
+		  opacity: 1;
+	  }
   }
   .section-title {
     text-transform: uppercase;

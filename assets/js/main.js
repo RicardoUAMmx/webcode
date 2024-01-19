@@ -78,6 +78,46 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  (function(){
+    const sumaryCareer = document.getElementById('sumary-oss');
+    const sectionBoxB = document.getElementById('section-box-b-oss');
+    const arrowDown = document.getElementById('arrow-down-oss');
+    const arrowUp = document.getElementById('arrow-up-oss');
+    sectionBoxB.addEventListener('click', () => {
+  	if (sumaryCareer.style.display === "none"){
+  	  sumaryCareer.style.display = "block";
+  	  arrowUp.style.opacity = "1";
+  	  arrowDown.style.opacity = "0";
+  	} else {
+  	  sumaryCareer.style.display = "none";
+  	  arrowUp.style.opacity = "0";
+  	  arrowDown.style.opacity = "1";
+  	}
+    });
+  })();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  (function(){
+    const sumaryCareer = document.getElementById('sumary-publications');
+    const sectionBoxB = document.getElementById('section-box-b-publications');
+    const arrowDown = document.getElementById('arrow-down-publications');
+    const arrowUp = document.getElementById('arrow-up-publications');
+    sectionBoxB.addEventListener('click', () => {
+  	if (sumaryCareer.style.display === "none"){
+  	  sumaryCareer.style.display = "block";
+  	  arrowUp.style.opacity = "1";
+  	  arrowDown.style.opacity = "0";
+  	} else {
+  	  sumaryCareer.style.display = "none";
+  	  arrowUp.style.opacity = "0";
+  	  arrowDown.style.opacity = "1";
+  	}
+    });
+  })();
+});
+
 jQuery(document).ready(function($) {
 
     $('.level-bar-inner').css('width', '0');
