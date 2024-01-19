@@ -5,7 +5,9 @@
   </h2>
 
   {% if theme %}
-  <p class="theme">{{ theme | markdownify }}</p>
+  <div class="theme">
+	{{ theme | markdownify }}
+  </div>
   {% endif %}
 
      <a class="github-button" href="https://github.com/RicardoUAMmx/webcode" data-icon="octicon-star" data-show-count="true" aria-label="Star RicardoUAMmx/webcode on GitHub">Star</a>
