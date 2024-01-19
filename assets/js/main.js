@@ -1,9 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {
   (function(){
     const sumaryCareer = document.getElementById('sumary-career');
-    const sectionBoxB = document.getElementById('section-box-b');
-    const arrowDown = document.getElementById('arrow-down');
-    const arrowUp = document.getElementById('arrow-up');
+    const sectionBoxB = document.getElementById('section-box-b-career');
+    const arrowDown = document.getElementById('arrow-down-career');
+    const arrowUp = document.getElementById('arrow-up-career');
+    sectionBoxB.addEventListener('click', () => {
+  	if (sumaryCareer.style.display === "none"){
+  	  sumaryCareer.style.display = "block";
+  	  arrowUp.style.opacity = "1";
+  	  arrowDown.style.opacity = "0";
+  	} else {
+  	  sumaryCareer.style.display = "none";
+  	  arrowUp.style.opacity = "0";
+  	  arrowDown.style.opacity = "1";
+  	}
+    });
+  })();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  (function(){
+    const sumaryCareer = document.getElementById('sumary-experiences');
+    const sectionBoxB = document.getElementById('section-box-b-experiences');
+    const arrowDown = document.getElementById('arrow-down-experiences');
+    const arrowUp = document.getElementById('arrow-up-experiences');
     sectionBoxB.addEventListener('click', () => {
   	if (sumaryCareer.style.display === "none"){
   	  sumaryCareer.style.display = "block";

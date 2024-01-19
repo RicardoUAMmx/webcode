@@ -209,10 +209,16 @@ p {
 	  .section-box-b {
 		flex: 0 1 auto;
 	  }
-	  #arrow-down {
+	  #arrow-down-career {
 		  opacity: 0;
 	  }
-	  #arrow-up {
+	  #arrow-up-career {
+		  opacity: 1;
+	  }
+	  #arrow-down-experiences {
+		  opacity: 0;
+	  }
+	  #arrow-up-experiences {
 		  opacity: 1;
 	  }
   }
