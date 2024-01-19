@@ -118,6 +118,26 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  (function(){
+    const sumaryCareer = document.getElementById('sumary-skills');
+    const sectionBoxB = document.getElementById('section-box-b-skills');
+    const arrowDown = document.getElementById('arrow-down-skills');
+    const arrowUp = document.getElementById('arrow-up-skills');
+    sectionBoxB.addEventListener('click', () => {
+  	if (sumaryCareer.style.display === "none"){
+  	  sumaryCareer.style.display = "block";
+  	  arrowUp.style.opacity = "1";
+  	  arrowDown.style.opacity = "0";
+  	} else {
+  	  sumaryCareer.style.display = "none";
+  	  arrowUp.style.opacity = "0";
+  	  arrowDown.style.opacity = "1";
+  	}
+    });
+  })();
+});
+
 jQuery(document).ready(function($) {
 
     $('.level-bar-inner').css('width', '0');
