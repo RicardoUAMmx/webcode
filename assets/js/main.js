@@ -58,6 +58,26 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  (function(){
+    const sumaryCareer = document.getElementById('sumary-projects');
+    const sectionBoxB = document.getElementById('section-box-b-projects');
+    const arrowDown = document.getElementById('arrow-down-projects');
+    const arrowUp = document.getElementById('arrow-up-projects');
+    sectionBoxB.addEventListener('click', () => {
+  	if (sumaryCareer.style.display === "none"){
+  	  sumaryCareer.style.display = "block";
+  	  arrowUp.style.opacity = "1";
+  	  arrowDown.style.opacity = "0";
+  	} else {
+  	  sumaryCareer.style.display = "none";
+  	  arrowUp.style.opacity = "0";
+  	  arrowDown.style.opacity = "1";
+  	}
+    });
+  })();
+});
+
 jQuery(document).ready(function($) {
 
     $('.level-bar-inner').css('width', '0');

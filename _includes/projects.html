@@ -12,17 +12,17 @@
 		{{ projects.title }}
 	  </h2>
 	</div>
-	<div class="section-box-b">
+	<div id="section-box-b-projects" class="section-box-b">
 	  <h2 class="section-title">
 		<span class="fa-stack fa-xs">
-		  <i class="fas fa-chevron-down fa-stack-2x"></i>
-		  <i class="fas fa-chevron-up fa-stack-2x"></i>
+		  <i id="arrow-down-projects" class="fas fa-chevron-down fa-stack-2x"></i>
+		  <i id="arrow-up-projects" class="fas fa-chevron-up fa-stack-2x"></i>
 		</span>
 	  </h2>
 	</div>
   </div>
 
-  <div class="summary">
+  <div id="sumary-projects" class="summary">
   {% if projects.intro %}
   <div class="intro">
       <p>{{ projects.intro }}</p>
