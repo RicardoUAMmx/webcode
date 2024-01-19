@@ -3,12 +3,11 @@
 #
 
 header:
-    title: Ricardo Hernández Osorio
+    title: Ricardo Hernández
     subtitle: Computer and Telecommunication Engineer
 
 sidebar:
     position: left # position of the sidebar : left or right
-    about: # True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -76,6 +75,18 @@ sidebar:
 
         - item: Lego collector.
           link:
+
+    theme: |
+      This theme has been inspired by
+      [Dracula Theme](https://draculatheme.com/) color palette where some
+      tones has been adapted, basically just shading it, however in future
+      changes these would be modified following the
+      [Dracula Syntax Highlighting Specification](https://spec.draculatheme.com)
+      In the other hand, its under construction the Light-Dark color themes and
+      functionalities proposing the light variation of Dracula. Another
+      important mention is the base theme from which it was taken, it is
+      [Online-CV](https://github.com/sharu725/online-cv), and definitely it was
+      a great beginning.
 
 career-profile:
     title: Career Profile
