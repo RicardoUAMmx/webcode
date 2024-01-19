@@ -46,8 +46,8 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: $sidebar-order;
-  background: $theme-color;
-  color: #fff;
+  background: $text-color;
+  color: $smoky-white;
   a {
     color: #fff;
   }
@@ -183,7 +183,7 @@ p {
 .main-wrapper {
   grid-column: span 7;
   order: $resume-order;
-  background: #fff;
+  background: $smoky-white;
   padding: 60px 0px 60px 0px;
   .summary {
 	padding: 5px;
@@ -201,7 +201,7 @@ p {
 	padding: 5px 7px 5px 7px;
     border-radius: 20px;
     box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.5);
-	background: $text-color;
+	background: $text-color-secondary;
 	  .section-box-a {
 		flex: 1 1 auto;
 	  }
@@ -249,7 +249,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: $text-grey;
+    color: $text-color;
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
