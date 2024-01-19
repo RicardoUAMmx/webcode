@@ -46,7 +46,7 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: $sidebar-order;
-  background: darken($text-color-secondary, 80%);
+  background: $text-color-secondary;
   color: $smoky-white;
   a {
     color: #fff;
