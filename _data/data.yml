@@ -172,6 +172,10 @@ experiences:
 
 certifications:
       title: Certifications
+      intro: >
+        You can list your side certifications in this
+        section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
       list:
         - name: CV Builder
           start: 2020

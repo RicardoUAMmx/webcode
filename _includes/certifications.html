@@ -21,6 +21,11 @@
   </div>
 
   <div id="sumary-certifications" class="summary">
+	{% if certifications.intro %}
+	<div class="intro">
+	  {{ certifications.intro | markdownify }}
+	</div>
+	{% endif %}
   {% for certifications in certifications.list %}
   <div class="item">
     <div class="meta">
