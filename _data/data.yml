@@ -13,29 +13,20 @@ sidebar:
     # Profile information
     avatar: imgMeNoBack.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     about: |
-      _I am a recent graduate of Computer and Telecommunications Engineering;
-      however, my work life started much earlier than my professional studies,
-      most of them in sales and services. I have had the opportunity to
-      discover my social skills and test my persuasiveness as a salesman in
-      companies such as IUSACELL (a telecommunications company in Mexico) and
-      BANAMEX (currently CITI Bank). On the other hand, in the services
-      industry, I have collaborated with VOLARIS (one of the most important
-      airlines in Mexico) in their call center, with activities like flight
-      reservations and especially hard flight attention that meant an
-      enhancement to my resume. Also, in a BANORTE call center bank, my
-      learning did not stop, especially because I could practice all my past
-      skills. From the above, my collective skills of self-improvement,
-      perseverance, resilience, and courage, would be proven by studying
-      instead of leaving them behind, taking advantage of my experiences from
-      before. Finally, and from a very special place, I would highlight my HSBC
-      experience, where I could challenge myself in an important position as a
-      KYC reviewer, where the details, concentration, intuition, knowledge of
-      the retail market bank, technical skills and my passion for abstract
-      reasoning were crucial, overall, my most important work experience_
+      _I am a recent graduate in Computation and Telecommunication Engineering.
+      I consider myself and analytical individual with a passion for solving
+      conjectures and theorems, extending beyond mathematics to include code
+      and programming. Committed to excellence in fields such as engineering,
+      programming and telecommunications. In general, my professional
+      experience has spanned diverse areas and roles that served as a turning
+      point in my career, allowing me to recognize programming and mathematical
+      reasoning as my core talents, which I am eager to further develop and
+      apply professionally._
 
     hashtags: |
-      Python MatLab Symulink C/C++ Git LaTeX DigitalOcean AWS MySQL Linux
-      Embedded-Systems
+      Programming Problem-Solving Leadership Negotiation Analysis
+      Math-Reasoning Technical-IT Creativity Cloud Critical-Thinking
+      Adaptability Teamwork
 
     # Sidebar links
     email: ricardo.hdz.o@outlook.com
@@ -91,18 +82,25 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an **analytic person** with a strong proficiency to solve abstract
-      problems through my own passion and aptitude, and on the other hand, I
-      have developed great **social skills** through my own environment in the
-      past. Since my early days at Engineering Institute, I tested my code
-      skills, and I loved it, probably because I had studied mathematics too
-      and my HSBC past, so **I have developed for more than five years
-      programming skills with different kinds of environments and languages.**
-      All in all, we have with me **technical skills** particularly tested
-      under a bank group, **sales and persuasiveness** to achieve goals,
-      **customer contact and negotiation ability**, **abstract reasoning**,
-      passion for **programming and mathematical thinking**, and especially
-      **resilience**, among other things.
+      I am a person in the process of professional development, looking for new
+      challenges in the engineering field. With a background in mathematics,
+      finance and bussines, I have developed skills such as
+        - *Social Skills.* Demostrated ability to build and cultivate
+          partnerships across colleagues. Teamwork. Sales and goals
+          achievement. Services and attention to detail.
+        - *Interpersonal Skills.* Demostrated persuasion and perseverance.
+          Determined and strongly motivated to achieve objectives.
+        - *Technical Skills.* Management of sensitive customer information.
+          Analysis and decision making through preprocessed data output. Web
+          development. Cloud computing. Programming and coding.
+      Nevertheless, at present, my engineering preferences and interests are
+      significantly influenced by subjects such as
+        - *Algorithms and Programming.*
+        - *Signals and Systems.*
+        - *Digital Control Systems and Digital Communications.*
+        - *Digital Signal Processing, FPGA and Microcontollers.*
+      Furthermore, there will always be a way to bring engineering into any
+      aspect of human life.
 education:
     title: Education
     info:
