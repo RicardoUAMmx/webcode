@@ -4,7 +4,7 @@
 
 header:
     title: Ricardo Hernández
-    subtitle: Computer and Telecommunication Engineer
+    subtitle: Computation and Telecommunication Engineer
 
 sidebar:
     position: left # position of the sidebar : left or right
@@ -99,7 +99,7 @@ career-profile:
       significantly influenced by subjects such as
 
         - **Algorithms and Programming.**
-        - **Signals and Systems.*+
+        - **Signals and Systems.**
         - **Digital Control Systems and Digital Communications.**
         - **Digital Signal Processing, FPGA and Microcontollers.**
 
@@ -134,88 +134,53 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
+      - role: KYC Operations Analyst
         time: 2012 - 2014
-        company: Amazon, London
+        company: HSBC Tower, CDMX
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Overall, I worked in an intermediate position responsible for
+          Anti-Money Laundering (AML) monitoring, governance, oversight and
+          regulatory reporting activities in coordination with the **Compliance
+          and Control Team**. Among my key responsabilities, I would highlight
+          the following
 
-certifications:
-      title: Certifications
-      intro: >
-        You can list your side certifications in this
-        section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - Review all information and documentation to verify adherence to
+              local regulations and HSBC standards.
+            - Keep updated KYC forms and customer profiles in accordance with
+              policy requirements.
+            - Conduct KYC tasks, which involve overseeing KYC records and the
+              appendix approval process, assiting in the formulation and
+              implementation of action plans for expired records.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          Moreover, I would include, but not limit, the next ones
+
+            - Provide support to bussines managers and product staff.
+            - Collaborate with internal and external teams, offering guidance
+              and subject matter expertise as required.
+            - Risk and control over datasets provided.
+
+          In short, the most rewarding and professional experience I have had
+          so far, from which I have developed
+
+            - Teamwork and partnership.
+            - Independence of judgement and autonomy.
+              Detailed assistance and service according to bussines needs in a
+              regulatory framework.
+      - role: Branch Account Executive
+        time: 2012 - 2012
+        company: HSBC Branch, Mexico
+        details: |
+          Responsible for branch goals, maintaining client realtionships, and
+          building new ones. The key responsabilities of this job were
+            - **Client Relationship Management.** Build and maintain strong
+              relationships with high-value clients, understanding their
+              financial needs and providing personalized banking solutions.
+            - **Product Knowledge.** Stay informed about the bank products and
+              services, and effectively communicate their features and benefits
+              to clients.
+            - **Cross-Selling.** Identify opportunities to cross-sell or upsell
+              additional banking products and services to enhance the overall
+              realtionship with clients.
 
 projects:
     title: Projects
