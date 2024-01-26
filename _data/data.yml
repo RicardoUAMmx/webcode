@@ -185,92 +185,109 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Throughout my undergraduate studies, I have developed some projects
+      which generally reflect my interests and preferences across different
+      kind of tools, technologies and topics in engineering.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Telegram Bot
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "I developed this project using Python as a wrapper, hosted on DigitalOcean, and integrated with MariaDB as its primary database, with potential scalability to a Database as a Service solution such as AppWrite. The main objective of this initiative wasd to streamline the university student registration process via Telegram, facilitating acces to specific services. Upon student registration, an automatic email verification process was implemented to ensure identity validation. The project is designed with scalability in mind, with future plans to expand its capabilities through development in Swift and Kotlin. This expansion will provide seamless query options via both a dedicated application and the Telegram platform."
 
-      - title: Tempo
+      - title: Motion Mouse Recorder
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Project based on the eKM8022 controller that has an essential feature feature to accomplish this project The XY Quadrature Mode. This mode would allow encoding the signal through a pair of optocouplers, and with a suitable sampling frequency, in conjuction with EEPROM module and a microcontroller, repeat the signal in a loop back and forth."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: BMP Reader Writer files
+        link: "https://github.com/RicardoUAMmx/BMP"
+        tagline: "I am a passionate about C programming language, so I have carried out a reader writer of BMP files to implement the output images in a 8-bit games for microcontrollers such as PIC16F18875 or in a FPGA."
 
-      - title: Delta
+      - title: Github Pages Template
+        link: "https://github.com/RicardoUAMmx/webcode"
+        tagline: "I have been inspired by a template from another user to create my own so that it can be available to the community. A number of features have been addes such as Fixed Header, a moveToTop button, expand-contract divs. This project have been totally built in HTML, CSS and pure JavaScript; deployed by Docker on Github for Continuos Integration."
+
+      - title: MSScripts
+        link: "https://github.com/RicardoUAMmx/BMP"
+        tagline: "Microsoft Scripts for PowerShell arose from the need to install WSL virtual machine on a different HDD or partition, which is not possible from the initial configuration (or if it is, it is quite complex). In general, it is simple for the user, just run the script and finally move the downloaded folder in the right address. Finally, run the Linux Image and the Job is done. I would remarked that it is possible to build a GUI environment for the user."
+
+      - title: VHDL-Basic-Clock
+        link: "https://github.com/RicardoUAMmx/VHDL-basic-clock"
+        tagline: "I have always belived that there are different ways to solve a problem, some simpler than others, and it is quite normal to choose the simplest way, but in this particular project I have chosen the hard way, and for one reason, The omissions that we sometimes overlook. The project consists of a common clock on a 4-digit 7-segment display. The architecture mainly used was structural type. Each digit will change at its own time or in its case, it will turn on. Their respective counters were configured, the 4-digit display was multiplexed at 100Hz. The project was designed to implement a chess clock in VHDL."
+
+      - title: Human Resources Network
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "With a basic CRUD in Laravel with Docker, hosted on AWS ECS and Appwrite as DBaaS, the basic Web App will be done. An IOS app will be built in Swift for its integration with database in Appwrite. A Telegram Bot will be created for Online Support. (This project is under construction)."
+
+      - title: Overleaf Templates
+        link: "#"
+        tagline: "A template like this document will be upload for everyone. All is built in LaTeX."
 
 oss:
-    title: OSS Contributions
+    title: Tools
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I am very comfortable with the terminal command line. Therefore, most of my tools are designed with this workflow in mind.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: DWM
+        link: "https://dwm.suckless.org"
+        tagline: "It is a Windows Manager for X. Any developer who likes customing their setup, enjoys C programming, and feels special preference for terminal command line should consider."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: VIM or NEOVIM
+        link: "https://neovim.io"
+        tagline: "I personally prefer just a few pluggins installed; however, essential plugins are those that bring a different a different perspective to your entire environment, such as Vim-Airline and Latex Suite (which, when properly configured, allows integration with any language)."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Debian
+        link: "https://www.debian.org"
+        tagline: "The base of operating systems like Ubuntu or Mint. Its extensive  array of packages available though it package management system makes software installation and updates efficient."
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Tmux
+        link: "https://github.com/tmux/tmux/wiki"
+        tagline: "If you are trying to run some process on background in a easy way or just programming without any additional windows; this must be your choice."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Anaconda for Python
+        link: "https://www.anaconda.com"
+        tagline: "The most easy way to install your packages for Python, even you could have several users for different kind of purposes."
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Jupyter Notebooks for Python
+        link: "https://jupyter.org"
+        tagline: "The fastest way to visalize  your results in a pretty way. You could setup your localhost to broadcast through any other device on your net."
+
+      - title: Arduino-CLI
+        link: "https://www.arduino.cc/pro/software-pro-cli/"
+        tagline: "The ultimate way to maintain your workflow through a CLI environment."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: LaTeX
+        level: 95%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: HTML, CSS and SASS
+        level: 85%
 
-      - name: Angular
-        level: 98%
+      - name: MySQL
+        level: 70%
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Cloud IaaS, Shells, SSH
+        level: 90%
 
-      - name: Sketch & Photoshop
+      - name: Python
+        level: 90%
+
+      - name: C/C++
+        level: 90%
+
+      - name: Git, GitHub and GitLab
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: JavaScript
+        level: 60%
+
+      - name: PHP
+        level: 85%
+
+      - name: Laravel
+        level: 70%
+
