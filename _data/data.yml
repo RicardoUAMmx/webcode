@@ -136,6 +136,26 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Customer Service Executive
+        time: 2016 - 2017
+        company: Afore XXI-Banorte, Eficasia Call Center. Toluca. Edo. de México
+        details: |
+          As a Customer Service Executive, I handled a variety of tasks related
+          to data management, documentation, and client inquiries, all aimed at
+          maintaining high leves of customer satisfaction and trsut.
+
+            - **Atenttion to Data Update Requests.** Process requests for
+              updating client data, including but not limited to customers Name,
+              Address, CURP, Social Security Number updates; ensuring accuracy and
+              completeness of updated information.
+            - **Customer Documentation Matching.** Verify and match customer
+              documentation accurately.
+            - **Providing General Information to Clients.** Communicate
+              account-related information clearly and concisely, addressing any
+              concerns or questions the client may have.
+            - **Attention to New Clients and AFORE Change Requests.** Facilitate
+              the onboarding process for new clients, guiding them through the
+              necessary steps to establish their AFORE accounts.
       - role: KYC Operations Analyst
         time: 2012 - 2014
         company: HSBC Tower, CDMX
