@@ -30,23 +30,24 @@ sidebar:
 
     # Sidebar links
     email: ricardo.hdz.o@outlook.com
-    phone: 52 722 0000000
+    phone:
     timezone:
     citizenship: México
-    website: # blog.webjeda.com #do not add http://
-    linkedin: # alandoe
+    website: https://ingricardo.pro
+    linkedin: ricardo-hernández-7a8a2a30a
     xing:
     github: RicardoUAMmx
-    telegram: DikkiDinky # add your nickname without '@' sign
+    telegram:
     gitlab:
     bitbucket:
-    twitter: '@RicardoHzO'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     microsoft: RicardoUAMmx
     codewars:
     hackerrank: RicardoUAMmx
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://drive.google.com/file/d/1W-kLx1lQbyAtAqP_zzSfXLuZZoucFxtj/view?usp=sharing
+    facebook: mt.ricardo.o
 
     languages:
       title: Languages
