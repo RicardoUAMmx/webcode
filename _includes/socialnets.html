@@ -1,0 +1,55 @@
+
+<div class="socialnets-container container-block">
+
+<h2 class="container-block-title">
+  Follow me
+</h2>
+
+<div class="hashtags">
+  <div class="socials">
+
+      {% if sidebar.telegram %}
+      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">
+	<i class="fab fa-telegram"></i>
+      </a>
+      {% endif %}
+
+      {% if sidebar.linkedin %}
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">
+	<i class="fab fa-linkedin"></i>
+      </a>
+      {% endif %}
+
+      {% if sidebar.facebook %}
+      <a href="https://facebook.com/{{ sidebar.facebook }}" target="_blank">
+	<i class="fab fa-facebook"></i>
+      </a>
+      {% endif %}
+
+      {% if sidebar.github %}
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank">
+	<i class="fab fa-github"></i>
+      </a>
+      {% endif %}
+
+      {% if sidebar.microsoft %}
+      <a href="https://learn.microsoft.com/en-us/users/{{ sidebar.microsoft }}" target="_blank">
+	<i class="fab fa-windows"></i>
+      </a>
+      {% endif %}
+
+      {% if sidebar.codewars %}
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">
+	<i class="fab fa-code"></i>
+      </a>
+      {% endif %}
+
+      {% if sidebar.hackerrank %}
+      <a href="https://www.hackerrank.com/profile/{{ sidebar.hackerank }}" target="_blank">
+	<i class="fab fa-code"></i>
+      </a>
+      {% endif %}
+  </div>
+</div>
+
+</div><!--//socialnets-container-->
