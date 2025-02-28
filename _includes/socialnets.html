@@ -6,50 +6,49 @@
 </h2>
 
 <div class="hashtags">
-  <div class="hash">
 
-      {% if sidebar.telegram %}
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">
-	<i class="fab fa-telegram"></i>
-      </a>
-      {% endif %}
+    {% if sidebar.telegram %}
+    <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">
+      <i class="fab fa-telegram social"></i>
+    </a>
+    {% endif %}
 
-      {% if sidebar.linkedin %}
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">
-	<i class="fab fa-linkedin"></i>
-      </a>
-      {% endif %}
+    {% if sidebar.linkedin %}
+    <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">
+      <i class="fab fa-linkedin social"></i>
+    </a>
+    {% endif %}
 
-      {% if sidebar.facebook %}
-      <a href="https://facebook.com/{{ sidebar.facebook }}" target="_blank">
-	<i class="fab fa-facebook"></i>
-      </a>
-      {% endif %}
+    {% if sidebar.facebook %}
+    <a href="https://facebook.com/{{ sidebar.facebook }}" target="_blank">
+      <i class="fab fa-facebook social"></i>
+    </a>
+    {% endif %}
 
-      {% if sidebar.github %}
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">
-	<i class="fab fa-github"></i>
-      </a>
-      {% endif %}
+    {% if sidebar.github %}
+    <a href="http://github.com/{{ sidebar.github }}" target="_blank">
+      <i class="fab fa-github social"></i>
+    </a>
+    {% endif %}
 
-      {% if sidebar.microsoft %}
-      <a href="https://learn.microsoft.com/en-us/users/{{ sidebar.microsoft }}" target="_blank">
-	<i class="fab fa-windows"></i>
-      </a>
-      {% endif %}
+    {% if sidebar.microsoft %}
+    <a href="https://learn.microsoft.com/en-us/users/{{ sidebar.microsoft }}" target="_blank">
+      <i class="fab fa-windows social"></i>
+    </a>
+    {% endif %}
 
-      {% if sidebar.codewars %}
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">
-	<i class="fab fa-code"></i>
-      </a>
-      {% endif %}
+    {% if sidebar.codewars %}
+    <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">
+      <i class="fab fa-code social"></i>
+    </a>
+    {% endif %}
 
-      {% if sidebar.hackerrank %}
-      <a href="https://www.hackerrank.com/profile/{{ sidebar.hackerank }}" target="_blank">
-	<i class="fab fa-hackerrank"></i>
-      </a>
-      {% endif %}
-  </div>
+    {% if sidebar.hackerrank %}
+    <a href="https://www.hackerrank.com/profile/{{ sidebar.hackerank }}" target="_blank">
+      <i class="fab fa-hackerrank social"></i>
+    </a>
+    {% endif %}
+
 </div>
 
 </div><!--//socialnets-container-->
