@@ -138,7 +138,7 @@ experiences:
     title: Experiences
     info:
       - role: Customer Service Executive
-        time: 2016 - 2017
+        # time: 2016 - 2017
         company: Afore XXI-Banorte, Eficasia Call Center. Toluca. Edo. de México
         details: |
           As a Customer Service Executive, I handled a variety of tasks related
@@ -158,7 +158,7 @@ experiences:
               the onboarding process for new clients, guiding them through the
               necessary steps to establish their AFORE accounts.
       - role: KYC Operations Analyst
-        time: 2012 - 2014
+        # time: 2012 - 2014
         company: HSBC Tower, CDMX
         details: |
           Overall, I worked in an intermediate position responsible for
@@ -190,7 +190,7 @@ experiences:
               Detailed assistance and service according to bussines needs in a
               regulatory framework.
       - role: Branch Account Executive
-        time: 2012 - 2012
+        # time: 2012 - 2012
         company: HSBC Branch, Mexico
         details: |
           Responsible for branch goals, maintaining client realtionships, and
