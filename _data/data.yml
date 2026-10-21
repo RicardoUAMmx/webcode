@@ -137,29 +137,30 @@ education:
 experiences:
     title: Experiences
     info:
-    - role: Software Development Engineer
-      company: Amazon Mexico. Global Strategic Sourcing, CDMX
-      details: |
-        Acting as a primary technical bridge and main branch support partner for
-        the **Kindle / Digital Devices** engineering teams. Focused on scalable
-        service integration, operational excellence, and cross-functional
-        tooling.
-        - **Cross-Team Integration & Mainline Support.** Served as dedicated
-        technical support for the Kindle branch, maintaining mainline stability,
-        unblocking deployment dependencies, and streamlining service
-        interactions between workflows and digital device pipelines.
-        - **Service Tooling & Process Automation.** Designed and implemented
-        internal tooling, automation scripts, and data pipeline integrations
-        that reduced manual touchpoints across multi-team sourcing and
-        hardware/software coordination.
-        - **Operational Excellence & Issue Resolution.** Diagnosed and resolved
-        complex integration bottlenecks, monitored build/release pipelines, and
-        enforced high code-quality standards through rigorous code reviews and
-        debugging.
-        - **Cross-Functional Knowledge Transfer.** Shared domain expertise,
-        documented operational runbooks, and guided cross-team engineers on
-        technical best practices and integration standards across branch
-        environments.
+      - role: Software Development Engineer
+        company: Amazon Mexico. Global Strategic Sourcing, CDMX
+        details: |
+          Acting as a primary technical bridge and main branch support partner for
+          the **Kindle / Digital Devices** engineering teams. Focused on scalable
+          service integration, operational excellence, and cross-functional
+          tooling.
+          
+            - **Cross-Team Integration & Mainline Support.** Served as dedicated
+            technical support for the Kindle branch, maintaining mainline stability,
+            unblocking deployment dependencies, and streamlining service
+            interactions between workflows and digital device pipelines.
+            - **Service Tooling & Process Automation.** Designed and implemented
+            internal tooling, automation scripts, and data pipeline integrations
+            that reduced manual touchpoints across multi-team sourcing and
+            hardware/software coordination.
+            - **Operational Excellence & Issue Resolution.** Diagnosed and resolved
+            complex integration bottlenecks, monitored build/release pipelines, and
+            enforced high code-quality standards through rigorous code reviews and
+            debugging.
+            - **Cross-Functional Knowledge Transfer.** Shared domain expertise,
+            documented operational runbooks, and guided cross-team engineers on
+            technical best practices and integration standards across branch
+            environments.
       - role: Customer Service Executive
         # time: 2016 - 2017
         company: Afore XXI-Banorte, Eficasia Call Center. Toluca. Edo. de México
